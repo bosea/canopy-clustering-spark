@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9e312c3-6737-473d-b93d-4ca80c7398d2" name="Default" comment="" />
+    <list default="true" id="b9e312c3-6737-473d-b93d-4ca80c7398d2" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/ml/dolphin/personas/canopy/CanopyKMeans.scala" afterPath="$PROJECT_DIR$/src/main/scala/ml/dolphin/personas/canopy/CanopyKMeans.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    </list>
     <ignored path="canopy-clustering-spark.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -42,10 +45,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExampleCanopyKMeans.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ExampleCanopyKMeans.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/ml/dolphin/personas/examples/ExampleCanopyKMeans.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3617571">
+            <state vertical-scroll-proportion="0.0">
               <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
@@ -58,17 +61,17 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/ml/dolphin/personas/canopy/XORShiftRandom.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="68" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+              <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CanopyKMeans.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CanopyKMeans.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/ml/dolphin/personas/canopy/CanopyKMeans.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.5">
+              <caret line="122" column="23" selection-start-line="122" selection-start-column="23" selection-end-line="122" selection-end-column="23" />
               <folding>
                 <element signature="e#46#133#0" expanded="true" />
               </folding>
@@ -77,6 +80,9 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -89,11 +95,11 @@
         <option value="$PROJECT_DIR$/src/main/scala/ml/dolphin/personas/canopy/Attributes.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/ml/dolphin/personas/canopy/XORShiftRandom.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/ml/dolphin/personas/canopy/ExampleCanopyKMeans.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/ml/dolphin/personas/canopy/CanopyKMeans.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/ml/dolphin/personas/canopy/VectorSpace.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/ml/dolphin/personas/examples/ExampleCanopyKMeans.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/ml/dolphin/personas/canopy/EuclideanVectorSpace.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/ml/dolphin/personas/canopy/PersonaCommon.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ml/dolphin/personas/canopy/CanopyKMeans.scala" />
       </list>
     </option>
   </component>
@@ -116,7 +122,7 @@
     <option name="width" value="1228" />
     <option name="height" value="713" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -760,20 +766,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ml/dolphin/personas/canopy/CanopyKMeans.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-          <folding>
-            <element signature="e#46#133#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ml/dolphin/personas/canopy/XORShiftRandom.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="68" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
           <folding />
         </state>
       </provider>
@@ -814,10 +810,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/ml/dolphin/personas/examples/ExampleCanopyKMeans.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3617571">
+        <state vertical-scroll-proportion="0.0">
           <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ml/dolphin/personas/canopy/CanopyKMeans.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5">
+          <caret line="122" column="23" selection-start-line="122" selection-start-column="23" selection-end-line="122" selection-end-column="23" />
+          <folding>
+            <element signature="e#46#133#0" expanded="true" />
           </folding>
         </state>
       </provider>

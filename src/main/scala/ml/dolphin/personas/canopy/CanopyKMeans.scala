@@ -116,7 +116,7 @@ class CanopyKMeans private(
      */
     val canopies = canopyCenters(features)
     val bcCanopies = sc.broadcast(canopies)
-    //println("XXX Canopies Broadcasted")
+
     /*
      * Main loop for k-means iterations. Within each iteration, we do all operations using
      * mapPartitions to calculate results locally within partitions and then do a global
@@ -230,7 +230,6 @@ class CanopyKMeans private(
     }
     }.collect.toMap
 
-    println("XXX FINISHED CANOPIES")
     // Merge local canopies across partitions to generate global canopies
     val centers = mutable.ArrayBuffer[(Vector, Int)]()
     c.foreach(x => centers.append((x._1, x._1.hashCode())))
