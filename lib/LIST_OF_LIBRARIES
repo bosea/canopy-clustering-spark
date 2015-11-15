@@ -1,0 +1,9 @@
+The following libraries were used to build the project:
+
+datanucleus-api-jdo-3.2.6.jar
+datanucleus-core-3.2.10.jar
+datanucleus-rdbms-3.2.9.jar
+spark-1.2.0.2.2.0.0-82-yarn-shuffle.jar
+spark-assembly-1.2.0.2.2.0.0-82-hadoop2.6.0.2.2.0.0-2041.jar
+
+The above Spark 1.2 libraries are for HortonWorks Hadoop distro but other distros should work without issues.
